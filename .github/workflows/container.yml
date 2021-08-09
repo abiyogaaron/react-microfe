@@ -4,13 +4,13 @@ on:
   push:
     branches:
       - master
-    # paths:
-    #   - 'container/**'
+    paths:
+      - '../../container/**'
   workflow_dispatch:
 
 defaults:
   run:
-    working-directory: container
+    working-directory: ../../container
 
 jobs:
   build:
