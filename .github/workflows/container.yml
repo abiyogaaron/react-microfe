@@ -4,12 +4,8 @@ on:
   push:
     branches:
       - master
-    paths:
-      - 'container/**'
-  page_build:
-  release:
-    types:
-      - created
+    # paths:
+    #   - 'container/**'
   workflow_dispatch:
 
 defaults:
